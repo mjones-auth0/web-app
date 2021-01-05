@@ -57,14 +57,14 @@ app.use(
 //  })
 //);
 
-app.use(
- auth({
-   secret: SESSION_SECRET,
-   authRequired: false,
-   auth0Logout: true,
-   baseURL: APP_URL,
- })
-);
+//app.use(
+// auth({
+//   secret: SESSION_SECRET,
+//   authRequired: false,
+//   auth0Logout: true,
+//   baseURL: APP_URL,
+// })
+//);
 
 // removed in M05-L01 step 10
 
