@@ -47,13 +47,15 @@ app.use(
  })
 );
 
-app.use(
-  session({
-    secret: SESSION_SECRET,
-    resave: false,
-    saveUninitialized: true,
-  })
-);
+// replaced with above in M06-L01 when configuring step 7
+
+//app.use(
+//  session({
+//    secret: SESSION_SECRET,
+//    resave: false,
+//    saveUninitialized: true,
+//  })
+//);
 
 app.use(
  auth({
